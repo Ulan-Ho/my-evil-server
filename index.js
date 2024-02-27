@@ -9,10 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 
-app.post("/",( req, res) => {
-    let data = req.body.data;
-    console.log(data);
-}) 
+
 
 app.post("/bootIlyat", ( req, res) => {
     const data = req.body.data;
